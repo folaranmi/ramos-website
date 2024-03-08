@@ -13,6 +13,17 @@ const config: Config = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
+      fontFamily: {
+        inter: ['var(--font-inter)'],
+        urbanist: ['var(--font-urbanist)'],
+      },
+      colors: {
+        ramosOrange: "var(--ramos-red)",
+        ramosYellow: "var(--ramos-yellow)",
+        ramosBlack: "var(--ramos-black)",
+        ramosGray: "var(--ramos-gray)",
+        ramosGrayLight: "var(--ramos-gray-light)",
+      }
     },
   },
   plugins: [],
