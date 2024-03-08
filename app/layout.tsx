@@ -20,7 +20,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${urbanist.variable} ${inter.className}`}>{children}</body>
+      <body className={`${urbanist.variable} ${inter.variable}`}>{children}</body>
     </html>
   );
 }

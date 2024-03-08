@@ -13,6 +13,8 @@
   
   --ramos-gray: #F0F0F0;
   --ramos-gray-light: #252522;
+
+  
 }
 
 @media (prefers-color-scheme: dark) {
@@ -23,16 +25,10 @@
   }
 }
 
-/* 
+
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
-} */
+    font-family: var(--font-urbanist);
+}
 
 @layer utilities {
   .text-balance {

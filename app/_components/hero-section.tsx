@@ -36,7 +36,7 @@ const HeroSection = () => {
             </div>
             <h1 className="text-ramosBlack text-[10rem] font-urbanist flex items-center gap-4 justify-end">
                 shape
-                <div className="rounded-full h-24 w-24 bg-ramosYellow flex justify-center items-center">
+                <div className="rounded-full min-h-24 min-w-24 bg-ramosYellow flex justify-center items-center">
                     <FiBarChart2 className="w-14 h-14" />
                 </div>
                 the future
