@@ -6,7 +6,7 @@ import HeroImage from "@/public/assets/img/mockup.png"
 
 const HeroSection = () => {
     return (
-        <div className="w-full min-h-[300px] flex flex-col justify-center py-36">
+        <div className="w-full min-h-[300px] flex flex-col justify-center py-36 px-12">
             <div className="flex justify-between">
                 <div className="flex flex-col font-urbanist text-9xl">
                     <div className="flex gap-2 items-center ml-32">
